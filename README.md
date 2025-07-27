@@ -17,7 +17,7 @@ Welcome to my personal portfolio website repository. This project showcases my s
 # Project Structure
 - 'Donie Portfolio_PLPH1.html': Main portfolio page with embedded CSS and JavaScript  
 - Uses CSS variables for easy theming and customization  
-- Clean markups with sections for About Me, Education, Projects, Testimonials, Contact
+- Clearly defined sections for About Me, Education,Programming Languages,Interests, Projects, Testimonials, Contact
 
 # Links
 - **GitHub:** [https://github.com/Superdon-777](https://github.com/Superdon-777)  
@@ -26,7 +26,7 @@ Welcome to my personal portfolio website repository. This project showcases my s
 - **Research Paper:** Linked via GitHub repository in the portfolio  
 
 # Getting Started
-Clone this repository and open `index.html` in a web browser to view the portfolio locally:
+Clone this repository and open `Donie Portfolio_PLPH1.html` in a web browser to view the portfolio locally:
 git clone https://github.com/Superdon-777/PLPHackathon1.git
 cd PLPHackathon1
 open Donie Portfolio_PLPH1.html
