@@ -1,5 +1,5 @@
 # Donie Paul Portfolio
-Welcome to my personal portfolio website repository. This project showcases my skills, education, projects, professional background. I emphasise clean UI interface, user interactivity, responsive design.
+Welcome to my personal portfolio website repository. This project showcases my skills, education, projects, professional background. I emphasise clean UI interface, user interactivity and responsive design.
 
 # About This Portfolio
 **Technologies Used**:
