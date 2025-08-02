@@ -1,35 +1,24 @@
 # Donie Paul Portfolio
-Welcome to my personal portfolio website repository. This project showcases my skills, education, projects, professional background. I emphasise clean UI interface, user interactivity and responsive design.
+Welcome to my personal portfolio website repository. This project showcases my skills, education, projects and professional background. I emphasise clean UI interface, user interactivity and responsive design. It's a single-page, mobile-friendly portfolio highlighting my expertise in economics and software development, built with accessible, semantic HTML and clean green-blue styling.
 
 # About This Portfolio
-**Technologies Used**:
-  Raw HTML and CSS with minimal JavaScript for interactive collapsible sections and theme toggling.  
-**Design Highlights**:  
-  Dark theme with customizable theme color, smooth animations and minimal avatar bounce effect. Also mobile-supportive layout.  
-**Features:**  
-  - Introduction with profile photo; links to GitHub and LinkedIn  
-  - Detailed education timeline sorted chronologically  
-  - Listing programming languages and ongoing projects  
-  - Testimonial slider with endorsements option 
-  - Contact form and confirmation message  
-  - Theme toggle for light/dark mode and live color scheme picker  
+Focused, Modern Design: Green-blue palette and sharp black titles for strong readability and a calm, professional look.
 
-# Project Structure
-- 'Donie Portfolio_PLPH1.html': Main portfolio page with embedded CSS and JavaScript  
-- Uses CSS variables for easy theming and customization  
-- Clearly defined sections for About Me, Education,Programming Languages,Interests, Projects, Testimonials, Contact
+Rapid Introduction: “About Me” delivers career focus in few sentences.
 
-# Links
-- **GitHub:** [https://github.com/Superdon-777](https://github.com/Superdon-777)  
-- **LinkedIn:** [https://www.linkedin.com/in/paul-g-b532ba31a/](https://www.linkedin.com/in/paul-g-b532ba31a/)  
-- **CV:** Linked via GitHub repository in the portfolio  
-- **Research Paper:** Linked via GitHub repository in the portfolio  
+Results-Focused Sections:
+Education: Fast credential scan.
+Skills/Projects: Immediate evidence of technical ability with clickable demos.
+Testimonials & Interests: Social proof and motivation at a glance.
+Contact in One Click: Email link directs immediate outreach.
+
+Optimized for All Devices: Centered, shadowed content adapts cleanly.
 
 # Getting Started
-Clone this repository and open `Donie Portfolio_PLPH1.html` in a web browser to view the portfolio locally:
+Clone this repository and open `index.html` in a web browser to view the portfolio locally:
 git clone https://github.com/Superdon-777/PLPHackathon1.git
 cd PLPHackathon1
-open Donie Portfolio_PLPH1.html
+open index.html
 
 # Deployment
 This portfolio can be deployed easily on GitHub Pages or any static site hosting service.
@@ -40,6 +29,6 @@ For collaboration or inquiries, use the contact form in the portfolio website or
 
 Thank you for visiting my portfolio!
 
-*Donie Paul Golanda © 2025*
+*Donie Paul © 2025*
 
 
