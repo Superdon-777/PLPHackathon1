@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donie Paul | Portfolio</title>
+  <style>
+    /* ===== CSS ROOT VARIABLES for colors, font, and border radius ===== */
+    :root {
+      --primary-color: #2a9d8f;      /* Green-blue main accent color */
+      --secondary-color: #264653;    /* Support color for subtitles/details */
+      --background-color: #fefefe;   /* General page background */
+      --text-color: #333;            /* Default text color */
+      --accent: #2a9d8f;             /* Set accent same as primary for consistency */
+      --font-sans: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font stack */
+      --border-radius: 8px;          /* Standard border radius for cards/boxes */
+    }
+    /* ==== RESET & BASE STYLES: Remove spacing/glitchy font inheritance ==== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-sans);
+    }
+
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 20px;
+      animation: fadeInBg 1.5s ease forwards; /* Animate the body background entrance */
+    }
+    /* Simple fade-in background animation for nice entry */
+    @keyframes fadeInBg {
+      from { background-color: #111; color: #888; }
+      to { background-color: var(--background-color); color: var(--text-color); }
+    }
+
+    /* ===== MAIN CONTAINER: Center content and add drop shadow ===== */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+      border-radius: var(--border-radius);
+      background-color: #fff;
+    }
+
+    /* ===== HEADER AREA: Name, tagline, top of page ===== */
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    /* Main title in green-blue */
+    header h1 {
+      font-size: 3rem;
+      color: var(--primary-color);
+      letter-spacing: 2px;
+      animation: slideInDown 0.8s ease forwards;
+    }
+    /* Subtitle in secondary color */
+    header p {
+      font-style: italic;
+      color: var(--secondary-color);
+      margin-top: 8px;
+      font-weight: 600;
+      animation: slideInDown 1s ease forwards;
+    }
+    /* Header elements slide in from the top for effect */
+    @keyframes slideInDown {
+      from { opacity: 0; transform: translateY(-20px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+
+    /* ===== SECTION STYLES FOR PROFILE AREAS ===== */
+    section {
+      margin-bottom: 2rem;
+      border-left: 6px solid var(--accent); /* green-blue border */
+      padding-left: 16px;
+      animation: fadeInUp 1.2s ease forwards; /* Sections fade up on page load */
+    }
+    /* Section entry animation */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+
+    /* Section headings: subtitles now black and no glow */
+    section h2 {
+      color: #000;                /* black subtitles */
+      margin-bottom: 1rem;
+      font-size: 1.9rem;
+      text-shadow: none;          /* remove glow */
+      cursor: default;
+      user-select: none;
+      transition: color 0.3s;
+    }
+    section h2:hover {
+      color: #000;                /* maintain black on hover */
+      text-shadow: none;
+    }
+
+    /* h4 titles also green-blue and styled */
+    h4 {
+      color: var(--primary-color);
+      font-weight: 600;
+      margin-top: 0.8rem;
+      margin-bottom: 0.6rem;
+    }
+
+    /* Remove glow/shadow from icons */
+    .icon {
+      text-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    /* LIST STYLES for Education/Skills */
+    ul {
+      list-style: inside square;  /* Stylish bullets */
+      margin-left: 12px;
+      color: var(--secondary-color);
+      font-weight: 600;
+    }
+    ul li {
+      margin-bottom: 0.6rem;
+      font-size: 1.1rem;
+      transition: color 0.2s;
+    }
+    ul li:hover {
+      color: var(--accent); /* Same green-blue on hover */
+    }
+
+    /* CONTACT DETAILS */
+    .contact-info {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--secondary-color);
+    }
+    /* Email styled link */
+    .contact-info a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* FOOTER: copyright and credits */
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--secondary-color);
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <!-- HEADER: Name/Title section -->
+    <header>
+      <h1>Donie Paul</h1>
+      <p>CPA 1 | Economist | Manager | Programmer</p>
+    </header>
+
+    <!-- ABOUT SECTION: Who Paul is -->
+    <section aria-labelledby="about-me">
+      <h2 id="about-me">👋 About Me</h2>
+      <p>
+        Hi, I’m Donie Paul Golanda, a multidisciplinary professional focusing on economics and software development.
+        Originally from Kenya, I’ve lived, studied and worked in the U.S. and New Zealand. I bring a global lens to local challenges.
+        Passionate about learning and creating digital solutions to real-world problems.
+        Open to tech collaborations, projects to support the under-served, or operational consulting.
+      </p>
+      <div class="about-links-container">
+        <div class="about-link-section">
+          <h4><span class="icon">💼</span>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/paul-g-b532ba31a/" target="_blank" rel="noopener noreferrer">Click Here</a>
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION: Paul's academic milestones -->
+    <section aria-labelledby="education">
+      <h2 id="education">🎓 Education</h2>
+      <ul>
+        <li>Programming Foundations in Python: 2025</li>
+        <li>University of Auckland – Cultural Anthropology & Globalization: 2016</li>
+        <li>Dartmouth College – B.A. Economics: 2013–2017</li>
+        <li>CPA Part I: 2012</li>
+      </ul>
+      <h4><span class="icon">💼</span>
+          My Resume:
+          <a href="https://github.com/Superdon-777/PLPHackathon1/blob/main/_Donie_Resume_2025.PDF" target="_blank" rel="noopener noreferrer">Download Here</a>
+      </h4>
+    </section>
+
+    <!-- SKILLS & LANGUAGES: What Paul can do -->
+    <section aria-labelledby="skills">
+      <h2 id="skills">💻 Skills & Languages</h2>
+      <ul>
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>SQL</li>
+        <li>STATA</li>
+      </ul>
+      <h4><span class="icon">💼</span>
+          STATA Research Paper: 
+          <a href="https://github.com/Superdon-777/PLPHackathon1/blob/main/Research_Sample%20Report_Donie.pdf" target="_blank" rel="noopener noreferrer">Click Here</a>
+      </h4>
+    </section>
+
+    <!-- PROJECTS: Sample of tools that Paul created -->
+    <section aria-labelledby="projects">
+      <h2 id="projects">💡 Projects</h2>
+      <ul>
+        <li>PYC: First Python-based simple calculator:
+          <a href="https://github.com/Superdon-777/PLP-WK-2" target="_blank" rel="noopener noreferrer">Click Here</a>
+        </li>
+        <li>DB1: First SQL-based database query:
+          <a href="https://github.com/PLP-Database-Design/wk-1-Superdon-777" target="_blank" rel="noopener noreferrer">Click Here</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- INTERESTS: What excites Paul about Technology -->
+    <section aria-labelledby="interests">
+      <h2 id="interests">📈 Interests</h2>
+      <p>
+        I enjoy experimenting with tech that improves real-life services—especially in education, health and business. I thrive in problem-solving environments where logic meets creativity. 
+        My goal is to leverage coding tools to address challenges faced by under-represented and marginalized communities in Africa and beyond, while driving economic growth.
+      </p>
+      <h4><span class="icon">💼</span>
+        Paul demonstrating Scratch to his new friend in Kisumu😄: 
+        <a href="https://github.com/Superdon-777/PLPHackathon1/blob/main/Edtech%20Sample%20Image.jpeg" target="_blank" rel="noopener noreferrer">Click Here</a>
+      </h4>
+    </section>
+
+    <!-- TESTIMONIALS: What do others say about Paul? -->
+    <section aria-labelledby="testimonials">
+      <h2 id="testimonials">🌟 Testimonials</h2>
+      <p>"In my 20 years of practising license, Donie Golanda stands out as one of the top employees I have worked with"
+        — Kim Rosenfield, Director of Dartmouth College Technology Transfer Department, 2018.
+      </p>
+    </section>
+  
+    <!-- CONTACT: How to reach Paul -->
+    <section aria-labelledby="contact">
+      <h2 id="contact">📬 Contact Me</h2>
+      <p class="contact-info">Email: <a href="mailto:doniepaul2@gmail.com">doniepaul2@gmail.com</a></p>
+    </section>
+
+    <!-- FOOTER: Legality and credits -->
+    <footer>
+      <p>© 2025 Donie Paul | PLP Hackathon 1</p>
+    </footer>
+  </div>
+</body>
+</html>
