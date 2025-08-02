@@ -21,7 +21,9 @@ cd PLPHackathon1
 open index.html
 
 # Deployment
-This portfolio is also live on Netlify: https://doniepaulportfolio.netlify.app/
+This portfolio is live at:
+1.Github Pages: https://superdon-777.github.io/PLPHackathon1/
+2.Netlify: https://doniepaulportfolio.netlify.app/
 
 # Contribution & Contact
 This repository reflects my personal portfolio work as a beginner programmer at the Power Learn Project (PLP) hackathon.
