@@ -15,14 +15,14 @@ Contact in One Click: Email link directs immediate outreach.
 Optimized for All Devices: Centered, shadowed content adapts cleanly.
 
 # Getting Started
-Clone this repository and open `index.html` in a web browser to view the portfolio locally:
-git clone https://github.com/Superdon-777/PLPHackathon1.git
-cd PLPHackathon1
+Clone this repository and open `index.html` in a web browser to view the portfolio locally:  
+git clone https://github.com/Superdon-777/PLPHackathon1.git  
+cd PLPHackathon1  
 open index.html
 
 # Deployment
 This portfolio is live at:
-1.Github Pages: https://superdon-777.github.io/PLPHackathon1/
+1.Github Pages: https://superdon-777.github.io/PLPHackathon1/  
 2.Netlify: https://doniepaulportfolio.netlify.app/
 
 # Contribution & Contact
